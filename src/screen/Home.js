@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
+import burgerImg from '../Img/burger.jpg'; // Import the image
+import pizzaImg from '../Img/pizza.jpg'; // Import the image
+import sandwichImg from '../Img/sandwick.jpeg'; // Import the image
+
 
 export default function Home() {
   const [search, setSearch] = useState('');
@@ -42,7 +46,7 @@ export default function Home() {
                     </div>
                   <div className="carousel-item active">
                     <img
-                      src="https://source.unsplash.com/random/900×700/?burger"
+                      src={burgerImg}
                       style={{ width: '90vh', height: '90vh', filter: 'brightness(80%)' }}
                       className="d-block w-100"
                       alt="Burger 1"
@@ -50,7 +54,7 @@ export default function Home() {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src="https://source.unsplash.com/random/900×700/?pizza"
+                      src={pizzaImg}
                       style={{ width: '90vh', height: '90vh', filter: 'brightness(80%)' }}
                       className="d-block w-100"
                       alt="Pizza"
@@ -58,7 +62,7 @@ export default function Home() {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src="https://source.unsplash.com/random/900×700/?sandwich"
+                      src={sandwichImg}
                       style={{ width: '90vh', height: '90vh', filter: 'brightness(80%)' }}
                       className="d-block w-100"
                       alt="Sandwich"
