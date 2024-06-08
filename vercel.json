@@ -14,9 +14,14 @@
       }
     ],
     "routes": [
-        { "src": "/api/createUser", "dest": "backend/Routes/CreateUser.js" },
-    { "src": "/api/displayData", "dest": "backend/Routes/DisplayData.js" },
-    { "src": "/(.*)", "dest": "backend/index.js" }
+      {
+        "src": "/api/(.*)",
+        "dest": "/backend/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/build/index.html"
+      }
     ]
   }
   

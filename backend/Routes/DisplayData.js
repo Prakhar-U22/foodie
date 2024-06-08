@@ -5,7 +5,6 @@ const router = express.Router();
 // Route for handling food data request
 router.post('/foodData', (req, res) => {
     try {
-        console.log(global.foodItems)
         // Sending foodItems and foodCategory as response
         res.send([global.foodItems, global.foodCategory]);
     } catch (error) {

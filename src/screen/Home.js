@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
-import burgerImg from '../Img/burger.jpg'; // Import the image
-import pizzaImg from '../Img/pizza.jpg'; // Corrected image import
-import sandwichImg from '../Img/sandwich.jpeg'; // Corrected image import
+import burgerImg from '../Img/burger.jpg';
+import pizzaImg from '../Img/pizza.jpg';
+import sandwichImg from '../Img/sandwich.jpeg';
 
 export default function Home() {
   const [search, setSearch] = useState('');
