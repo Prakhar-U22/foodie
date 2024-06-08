@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 import burgerImg from '../Img/burger.jpg'; // Import the image
-import pizzaImage from '../Img/pizza.jpg';
 import sandwichImg from '../Img/sandwick.jpeg'; // Import the image
 
 
@@ -54,7 +53,7 @@ export default function Home() {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src={pizzaImage}
+                      src={burgerImg}
                       style={{ width: '90vh', height: '90vh', filter: 'brightness(80%)' }}
                       className="d-block w-100"
                       alt="Pizza"
