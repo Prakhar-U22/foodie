@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <div className="carousel-item">
             <img
-              src={burgerImg}
+              src={pizzaImg}
               style={{ width: '90vh', height: '90vh', filter: 'brightness(80%)' }}
               className="d-block w-100"
               alt="Pizza"
